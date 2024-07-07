@@ -4,7 +4,7 @@ from airflow.operators.python_operator import PythonOperator
 
 # Função que imprime a data e a hora da execução
 def print_execution_date(ds, **kwargs):
-    print(f'(MWAA) Data e hora da execução: {ds}')
+    print(f'Data e hora da execução: {ds}')
 
 # Definição da DAG
 default_args = {
